@@ -15,8 +15,7 @@ while (random_number != user_guess):
     #           HINT: USE == (TWO EQUAL SIGNS!) INSIDE THE EMPTY ()           #
     ###########################################################################
     if ():
-        print("YOU WON!\n")
-        return
+        exit("YOU WON!\n")
 
     ###########################################################################
     #    COMPLETE THIS IF STATEMENT (USER_GUESS IS LESS THAN RANDOM_NUMBER)   #
