@@ -16,7 +16,7 @@ while (random_number != user_guess):
     ###########################################################################
     if ():
         print("YOU WON!\n")
-        exit()
+        return
 
     ###########################################################################
     #    COMPLETE THIS IF STATEMENT (USER_GUESS IS LESS THAN RANDOM_NUMBER)   #
