@@ -4,7 +4,8 @@ random_number = random.randint(1,50)
 user_guess = -1
 
 
-# This while loop allows the user to guess while guess is not the random numer
+# This loop keeps the guessing game going while the user has not (!=) guessed
+# the correct number. Make the three changes to complete the game!
 while (random_number != user_guess):
 
     user_guess = int(input("\nEnter your guess:\n"))
