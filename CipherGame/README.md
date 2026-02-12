@@ -1,8 +1,12 @@
-# Dependencies
+## Dependencies
 Node.js
 
-# Deploy
+## Deploy
+navigate to CipherGame directory
 run command: npm run dev
 
-# Author
+## Frame Work
+Svelte
+
+## Author
 Iyan Syeed-Miller
