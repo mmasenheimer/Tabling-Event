@@ -54,7 +54,7 @@ def cat_glare(face_landmark_points):
         abs(r_top.y - r_bot.y)
     ) / 2.0
 
-    return eye_squint < squinting_threshold
+    return eye_squint > squinting_threshold
 
 
 
@@ -81,7 +81,7 @@ def main():
             elif cat_glare(face_landmark_points):
                 cat_image = "assets/cat-glare.jpeg"
             else:
-                cat_image = "assets/larry.jpeg"
+                cat_image = "assets/thinking-monkey.jpeg"
         
 
             height, width = image.shape[:2]
