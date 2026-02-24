@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    margin: 0;
+}
+
+.clickableArea{
+    height: 100vh;
+    width:100%;
+    cursor: pointer;
+    background-color: green;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+
+.endScreen,.mainMenu{
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #0C234B;
+    color:  white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.subtext{
+    -webkit-text-stroke-width: 0px;
+    color:  #AB0520;
+}
+
+#startButton{
+    -webkit-text-stroke-width: 0px;
+    color:  rgba(255, 255, 255);
+    border: none;
+    background-color: #AB0520;
+    font-size: 20px;
+    padding: 8px 32px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+#clearScoreboard{
+    -webkit-text-stroke-width: 0px;
+    background-color: #0C234B;
+    color:  white;
+    font-size: 15px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.podiums{
+    position: absolute;
+    left: 50%;
+    bottom: 0px; 
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.podium{
+    width: 140px;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color:  white;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.rank{
+    font-size: 45px;
+    color:  white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rank1{
+    font-size: 45px;
+    color:  rgb(230, 223, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(111, 109, 16);
+    text-align: center;
+}
+
+.podium.small{
+    height: 140px;
+    background: #1F5FBF;   
+}
+
+.podium.tall{
+    color:  rgb(251, 255, 25);
+    -webkit-text-stroke-color: rgb(111, 92, 9);
+    height: 240px;
+    background: #C8102E;
+}
+
+.podium.medium{
+  height: 190px;
+  background: #1F5FBF;
+}
+
+.scorePods{
+    font-size: 35px; 
+    color:  white;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.name{
+    -webkit-text-stroke-width: 0px; 
+    text-transform: uppercase;
+    position: absolute;
+    top: -35px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.name1{
+    color:  rgb(230, 223, 0);
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(111, 109, 16);
+    position: absolute;
+    top: -35px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.usernameInput{
+    -webkit-text-stroke-width: 0px;
+    color:  black;
+    width: 250px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mainMenu.active,
+.endScreen.active{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    max-width: 700px;
+    padding: 0 32px;
+}
+
+.mainMenu h1{
+    font-size: 70px;
+    margin: 8px 0;
+}
+
+.container p{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 800;
+    margin: 0;
+}
+
+.endScreen{
+    font-size: 30px;
+}
+
+.reactionTimeText{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.reactionTimeTextSubtext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.endScreen .playAgain{
+    -webkit-text-stroke-width: 0px;
+    color:  black;
+    border: none;
+    background-color: #AB0520;
+    font-size: 20px;
+    padding: 8px 32px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    cursor: pointer;
+}

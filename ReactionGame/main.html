@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reaction Time Test</title>
+
+</head>
+<body>
+    <div class="endScreen ">
+
+        <div class="container">
+            <h1>Your time:</h1>
+            <div class="reactionTimeResult">seconds</div>
+            <button class="playAgain">Play Again</button>
+        </div>
+  
+        <div class="podiums">
+            <div class="podium small">
+                <div class="name"></div>
+            </div>
+            <div class="podium tall">
+                <div class="name"></div>
+            </div>
+            <div class="podium medium">
+                <div class="name"></div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="mainMenu active">
+
+        <div class="container">
+            <h1>Reaction Time Test</h1>
+            <p class="subtext"> Enter Your Name:</p>
+            <p><input class="usernameInput" type="text" id="username"></p>
+            <br>
+            <button id="startButton">Start</button>
+        </div>
+
+    </div>
+
+    <div class="clickableArea" >
+        <div class="message">Click!</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
